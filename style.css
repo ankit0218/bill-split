@@ -1,0 +1,112 @@
+
+body {
+	background: #D6BCFF;
+}
+
+#heading{
+position: absolute;
+width: 87px;
+height: 25px;
+left: 45%;
+top: 70px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 27px;
+letter-spacing: 0.625em;
+
+color: #6F3CFF;
+}
+
+#container {
+position: absolute;
+width: 750px;
+height: 360px;
+left: 370px;
+top: 160px;
+
+background: #FFFFFF;
+box-shadow: -1px 6px 55px rgba(0, 0, 0, 0.16);
+border-radius: 21px;
+}
+
+.tip-buttons {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	width: 80px;
+    background: #6F3CFF;
+    line-height: 10px;
+    height: 39px;
+    padding: 10px;
+    margin: 7px;
+    margin-left: 1px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: transparent;
+    font-size: 15px;
+    opacity: 1;
+}
+
+#bill-input, #people-input, #reset {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	width: 260px;
+    height: 40px;
+    border-radius:2px;
+    border: transparent;
+    background: #d7d3d3;
+    font-size: 20px;
+    color: #494848;
+}
+
+
+#content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	display: flex;
+    line-height: 40px;
+    color:#9C60FF;
+    font-weight: 600;
+
+}
+
+#left, #right {
+	padding: 10px;
+	margin: 10px;
+}
+
+#right {
+	background: #9C60FF;
+    width: 300px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+    margin-top: 30px;
+    margin-left: 60px;
+	justify-content: space-evenly;
+    color: #fff;
+    font-weight: 200;
+}
+#tip-per-person, #total-per-person{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    margin-right: 20px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+ #reset{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background:  #C39FFF;
+color: #6F3CFF;
+margin-left: 40px;
+width: 230px;
+border-radius: 7px;
+ }
+
+#tip-amount, #total-bill {
+	display: flex;
+	justify-content: space-between;
+    line-height: 20px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
